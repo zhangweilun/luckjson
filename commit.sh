@@ -3,13 +3,13 @@ echo '请输入要提交的注释信息:'
 
 read msg
 
-git pull origin develop
+git pull origin master
 
 git add .
 
 git commit -a -m "$msg"
 
-git push origin develop
+git push origin master
 
 
 
